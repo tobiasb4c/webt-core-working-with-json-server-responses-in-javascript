@@ -11,14 +11,14 @@ The WIFI Vienna wants to help people who are unsatisfied with their job to choos
 - The JavaScript “fetch” function is used to fetch dummy data from https://jsonplaceholder.typicode.com/todos/1
 - The dummy data fetched is displayed on the page!
 
-## User Story 3
+## User Story 2
 *As a Developer I want to fetch all data from the client's service and display it on the page or console, so that I can later choose random data from the available information.*
 
 ### Acceptance Criteria
 - The JavaScript “fetch” function is used to fetch the client's data from http://opendata.wifi.at/OpenJsonData.json
 - The full dataset is displayed on the page or console to ensure integrity
 
-## User Story 4
+## User Story 3
 *As a Customer I want to push a “Get random Career” button and receive a suggestion for my next job, so that I can restructure my life based on the luck of the draw.*
 
 ### Acceptance Criteria
@@ -26,7 +26,7 @@ The WIFI Vienna wants to help people who are unsatisfied with their job to choos
 - The job is displayed on the page
 - The page uses a responsive framework
 
-## User Story 5
+## User Story 4
 *As a Customer I want to have a single job displayed on the screen prominently, featuring title, place of work and description, so that I can identify the relevant information quickly.*
 
 ### Acceptance Criteria
@@ -36,5 +36,3 @@ The WIFI Vienna wants to help people who are unsatisfied with their job to choos
 
 #### Links
 https://my.skilldisplay.eu/en/skillset/83
-
-
