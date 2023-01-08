@@ -1,5 +1,8 @@
-console.log('test');
-fetch('https://jsonplaceholder.typicode.com/todos/1', {
+fetch('/OpenJsonData.json')
+    .then(response => response.json())
+    .then((json) => console.log(JSON.stringify(json)));
+    /*
+fetch('http://opendata.wifi.at/OpenJsonData.json', {
     method: 'GET',
     headers: {
         'Accept': 'application/json',
