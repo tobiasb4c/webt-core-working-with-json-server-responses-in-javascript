@@ -1,3 +1,4 @@
+function randJob(){
 var jsonA = [];
 fetch('/OpenJsonData.json')
     .then(response => response.json())
@@ -6,11 +7,13 @@ fetch('/OpenJsonData.json')
 
     var random = (Math.floor(Math.random() * json.length))
     console.log(random);
-    document.getElementById('fetchedData').innerText = json[random].Titel ;
-
+    document.getElementById('fetchedData').innerText = 'Titel: ' + json[random].Titel ;
+    document.getElementById('fetchedData2').innerText = 'Place: ' + json[random].Place ;
+    document.getElementById('fetchedData3').innerText = 'Decription: ' + json[random].Decription ;
     });
 
     console.log(jsonA);
+}
 
 
 
