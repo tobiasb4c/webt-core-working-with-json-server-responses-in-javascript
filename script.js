@@ -1,6 +1,6 @@
 function randJob(){
 var jsonA = [];
-fetch('/OpenJsonData.json')
+fetch('./OpenJsonData.json')
     .then(response => response.json())
     .then((json) => {jsonA.push(JSON.parse(JSON.stringify(json)))
     
